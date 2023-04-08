@@ -15,18 +15,18 @@ namespace BoletoBradescoF
             return new Beneficiario
             {
                 CPFCNPJ = "86.875.666/0001-09",
-                Nome = "Beneficiario Teste",
+                Nome = "Aguinaldo Lucas",
                 Codigo = codigoBeneficiario,
                 CodigoDV = digitoCodigoBeneficiario,
                 CodigoTransmissao = codigoTransmissao,
                 Endereco = new Endereco
                 {
-                    LogradouroEndereco = "Rua Teste do Beneficiário",
+                    LogradouroEndereco = "Rua Leopoldo 1253",
                     LogradouroNumero = "789",
                     LogradouroComplemento = "Cj 333",
-                    Bairro = "Bairro",
-                    Cidade = "Cidade",
-                    UF = "SP",
+                    Bairro = "Bairro Alto",
+                    Cidade = "Curitiba",
+                    UF = "PR",
                     CEP = "65432987"
                 },
                 ContaBancaria = contaBancaria
@@ -39,30 +39,30 @@ namespace BoletoBradescoF
                 return new Pagador
                 {
                     CPFCNPJ = "443.316.101-28",
-                    Nome = "Pagador Teste PF",
+                    Nome = "Universidade Positivo",
                     Observacoes = "Matricula 678/9",
                     Endereco = new Endereco
                     {
-                        LogradouroEndereco = "Rua Testando",
+                        LogradouroEndereco = "Rua Positivo",
                         LogradouroNumero = "456",
-                        Bairro = "Bairro",
-                        Cidade = "Cidade",
-                        UF = "SP",
+                        Bairro = "Campo Comprido",
+                        Cidade = "Curitiba",
+                        UF = "PR",
                         CEP = "56789012"
                     }
                 };
             return new Pagador
             {
                 CPFCNPJ = "71.738.978/0001-01",
-                Nome = "Pagador Teste PJ",
+                Nome = "Positivo PJ",
                 Observacoes = "Matricula 123/4",
                 Endereco = new Endereco
                 {
-                    LogradouroEndereco = "Avenida Testando",
+                    LogradouroEndereco = "Avenida Curitiba",
                     LogradouroNumero = "123",
-                    Bairro = "Bairro",
-                    Cidade = "Cidade",
-                    UF = "SP",
+                    Bairro = "Campo Comprido",
+                    Cidade = "Curitiba",
+                    UF = "PR",
                     CEP = "12345678"
                 }
             };
@@ -106,7 +106,7 @@ namespace BoletoBradescoF
                 PercentualJurosDia = (decimal)0.2,
                 ValorJurosDia = (decimal)(100 * i * (0.2 / 100)),
                 AvisoDebitoAutomaticoContaCorrente = "2",
-                MensagemArquivoRemessa = "Mensagem para o arquivo remessa",
+                MensagemArquivoRemessa = "OLOCO MEU",
                 NumeroControleParticipante = "CHAVEPRIMARIA" + _proximoNossoNumero
             };
             // Mensagem - Instruções do Caixa
